@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,7 +6,13 @@
     <title>MovieFinder</title>
   </head>
   <body>
-    <h1> MovieFinder </h1>
+    <h1>MovieFinder Search Results</h1>
+    <form>
+      <input type="search" name="title">
+    </form>
     
+    <h2><%= @movie.title %></h2>
+
+    <p><%= @movie.plot %></p>
   </body>
 </html>
